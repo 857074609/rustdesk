@@ -92,21 +92,23 @@ class _DesktopHomePageState extends State<DesktopHomePage>
                         Icons.touch_app_outlined,
                         size: 24,
                         color: Colors.grey,
-                      ).marginOnly(top: 18),
-                      // ❤️ 红色副标题
-                      const Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 36.0),
-                        child: Text(
-                          "请点击复制按钮获取ID通过社交平台发送给技术人员以便技术员控制您的电脑处理故障问题",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Colors.red,
-                            height: 1.4,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                      ).marginOnly(top: 12),
+                      ).marginOnly(top: 18)
+const Padding(
+  padding: EdgeInsets.symmetric(horizontal: 36.0),
+  child: Text(
+    "请点击复制按钮\n"
+    "获取协助信息\n"
+    "发送至客服\n"
+    "客服将远程协助处理问题",
+    textAlign: TextAlign.center,
+    style: TextStyle(
+      fontSize: 18, // 增大字号，更显眼（原16 → 18）
+      color: Colors.red, // 红色
+      height: 1.5, // 增加行高，避免拥挤
+      fontWeight: FontWeight.w700, // 加粗（bolder），增强视觉冲击
+    ),
+  ),
+).marginOnly(top: 12),
                     ],
                   ),
                 ),
