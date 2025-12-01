@@ -97,7 +97,7 @@ class _DesktopTabPageState extends State<DesktopTabPage> {
             body: DesktopTab(
               controller: tabController,
      //删除tail部分隐藏汉堡菜单
-              )
+              
             )));
     return isMacOS || kUseCompatibleUiMode
         ? tabWidget
