@@ -92,7 +92,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
                         Icons.touch_app_outlined,
                         size: 24,
                         color: Colors.grey,
-                      ).marginOnly(top: 18)
+                      ).marginOnly(top: 18),
 const Padding(
   padding: EdgeInsets.symmetric(horizontal: 36.0),
   child: Text(
