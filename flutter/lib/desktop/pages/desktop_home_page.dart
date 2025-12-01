@@ -35,7 +35,7 @@ class DesktopHomePage extends StatefulWidget {
 const borderColor = Color(0xFF2F65BA);
 
 class _DesktopHomePageState extends State<DesktopHomePage>
-    with AutomaticKeepAliveClientMixin, WidgetsBindingObserver {
+   with TickerProviderStateMixin, AutomaticKeepAliveClientMixin, WidgetsBindingObserver {
   final _leftPaneScrollController = ScrollController();
   //添加一个按钮动态特效动画
   late AnimationController _flashController;
