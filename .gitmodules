@@ -1,4 +1,4 @@
 [submodule "libs/hbb_common"]
 	path = libs/hbb_common
 	url = https://github.com/857074609/hbb_common.git
-	branch = main
+	branch = MIncomingOnly_v1
